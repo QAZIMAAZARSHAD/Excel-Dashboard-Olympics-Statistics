@@ -1,0 +1,56 @@
+MS Excel - MS Excel is a commonly used Microsoft Office application. It is a spreadsheet program that is used to save and analyze numerical data.
+
+Pivot Table - A Pivot Table is an interactive way to quickly summarize large amounts of data. This summary might include sums, averages, or other statistics. We can use a PivotTable to analyze numerical data in detail and answer unanticipated questions about your data.
+
+Power Pivot - Power Pivot is an Excel add-in you can use to perform powerful data analysis and create data models. With Power Pivot, you can mash up large volumes of data from various sources, perform information analysis rapidly, and share insights easily.
+
+Data Model - We can say that a data model is an abstract design of the data and how its components are related. Excel's Data Model creates a relationship between two (or more) sets of data using a common field.
+
+Power Query Editor - Power Query is a tool in Microsoft Excel that simplifies the process of importing data from different source files and sorting them into an Excel sheet in the most convenient and usable format.
+
+Slicer - A slicer is an object in Excel that allows us to filter our data. It displays all the possible values from a selected column of data and each value will display as an individual button inside the slicer. The buttons can be used to toggle the active filtering of the data set.
+
+Timelines - Timelines are like slicers. They allow us to filter our data using a visual interface, but they are specifically for use with date fields. They allow us to easily filter on ranges of dates by days, months, quarters, or years. The dates appear in a horizontal line going from oldest to newest as we go from left to right on the timeline.
+
+Sparklines - A sparkline is a very small line chart, and it is drawn without axes or coordinates. These are tiny charts inside single worksheet cells. And we use sparklines to show trends in a series of values, such as seasonal increases or decreases, economic cycles, or to highlight maximum and minimum values.
+
+LOOKUP - The Excel LOOKUP function performs an approximate match lookup in a one-column or one-row range, and returns the corresponding value from another one-column or one-row range.
+=LOOKUP (lookup_value, lookup_vector, [result_vector])
+
+VLOOKUP - VLOOKUP is a function to lookup up and retrieves data in a table. The "V" in VLOOKUP stands for vertical, which means the data in the table must be arranged vertically, with data in rows. 
+VLOOKUP([value], [range], [column number], [false or true])
+
+HLOOKUP in Excel stands for ‘Horizontal Lookup’. It is a function that makes Excel search for a certain value in a row, in order to return a value from a different row in the same column.
+HLOOKUP([value], [range], [row number], [false or true])
+
+XLOOKUP - The XLOOKUP function searches a range, and then returns the item corresponding to the first match it finds. If no match exists, then XLOOKUP can return the closest (approximate) match. XLOOKUP can find values in vertical or horizontal ranges.
+=XLOOKUP (lookup, lookup_array, return_array, [not_found], [match_mode], [search_mode])
+
+Workbook - A workbook is a collection of one or more spreadsheets, also called worksheets, in a single file.
+
+Worksheet - A worksheet is a collection of cells organized in rows and columns.
+
+Cell - A cell is the intersection of a row and a column.
+
+INDEX Function - The INDEX function returns the value at a given location in a range or array.
+
+MATCH - The MATCH function searches for a value in an array and returns the relative position of that item.
+
+Cell Reference - A cell reference refers to a cell or a range of cells on a worksheet and can be used in a formula to find the values or data that we want that formula to calculate.
+
+There are three types of cell references: relative, absolute, and mixed.
+
+Relative cell reference -  When we copy a formula in a cell to another cell then the cell reference automatically adjusts to refer to the corresponding row.
+Absolute Reference - Absolute cell references don’t change when we copy the formula to other cells. 
+$ - A dollar symbol, when added in front of the row and column number, makes it absolute (i.e., stops the row and column number from changing when copied to other cells).
+
+Mixed cell references - 2 types - The row is locked while the column changes when the formula is copied. The column is locked while the row changes when the formula is copied.
+
+Conditional Formating - Conditional formatting in Excel enables us to highlight cells with a certain color, depending on the cell's value.
+
+A pie chart is a circular graph that shows individual categories as slices – or percentages – of the whole. The donut chart is a variant of the pie chart, with a hole in its center, and it displays categories as arcs rather than slices.
+
+What is visual basic?
+VBA (Visual Basic for Applications) is the programming language of Excel. With Excel VBA we can do many tasks in Excel.
+
+Macro - A macro is sequence of computing instructions used to replace a repetitive series of keyboard and mouse actions.

@@ -1,0 +1,59 @@
+Good Morning Everyone, This is Qazi Maaz Arshad. And I have made an Excel Dashboard on Olympic Statistics as an End Term Project for the course INT217 - Introduction to Data Management.
+
+I will be discussing my End Term Project, what data sets I have used, how I performed the ETL processes, what tasks I did, what was my approach. I will explain my project in brief what are the objectives of this project and what are the features of this dashboard, what are the tech stacks, tools, and technologies I have used, And I will talk about how beneficial was this course and project, what new skills I gained, and how was my experience of working on this project.
+These are the topics that I have discussed in the report and I will be briefly discussing them in this presentation.
+
+So, My Excel dashboard is of an Olympics data set. This dashboard explains and highlights important facts, records, and trends in the Olympic's history.
+
+The data set used contains information regarding all the previous Winter and Summer Olympics. It includes information regarding all the participants involved in the games, the participating nations, the games they played, when these Olympics were held, who was the host country, which participants won medals, what medals they won (gold, silver, bronze), what was the age, height, and weight of the players. And this is a very large data set, it contains details of Approx. 271117 players. I have downloaded the data sets from Kaggle. (Kaggle is a website where we can find all the data sets we need).
+
+Now let's talk about the making of the dashboard...
+
+So, the making of the project is divided into 3 phases.
+In the first phase, I have done the data acquisition or we can say gathering the data and pre-processing it to normalize and clean it before we can proceed to analyze the data.
+In the second phase, I have worked on all the objectives separately that I wanted to include in the dashboard. I have followed the Agile Model Development strategy. FIrst resource gathering, then breaking project into smaller parts then deployment at a later stage.
+The last phase was combining the results of all the objectives and designing the dashboard.
+
+I have used only excel for the entire ETL process. First I have downloaded the data from Kaggle, then used the get data feature to import into excel, then I have used the power query editor to transform the data to eliminate unwanted values, remove redundancies and all useless values, I had two data sets and I wanted to combine them so I have loaded all data sets as connections then used combine queries feature to merge the data sets. Apart from advanced techniques like power query editor, and get data feature I have done many modifications in the data using simple techniques like a filter, replace, etc.
+I have explained all the processes in complete detail in the report and have attached relevant screenshots of all the steps.
+
+Now, once I had the clean data. I have used pivot tables to take little parts of data and summarize it to deduce important results, facts, and trends of all the Olympics. And using pivot charts to visualize those results.
+I have calculated various results from this large database, like the total number of participants, total no. of males who won the gold medal, females who have won the bronze medal in swimming, in which sports maximum Indian players have participated, what is the male/female participation index in China, What were the age/height/ and weight of Gymnasts gold medalists from the USA, which host city has recorded highest participation, etc.
+
+This is the look of the dashboard.
+I have combined all the pivot charts of all the objectives and then connected the required slicers (like gender, country, etc. to filter and more specify the results), at last, I have added images, objects, and style to the dashboard to improve the look.
+And we can use this dashboard to find the required results, and trends from the large Olympics data without any difficulty.
+
+And apart from the brilliant look of the dashboard and the detailed and accurate analysis it provides. This dashboard has some unique feature that separates it from the rest of the dashboards.
+
+And these are the dark/light theme switch and the master sheet, and hidden links. 
+Excel does not provide such features, I have used some special tricks to include these features in my dashboard.
+
+So, this is the day/night or dark/light theme feature which gives a better user experience. Here is the toggle switch in the top left corner which we can use to change the theme of the dashboard.
+
+The other special feature is the master sheet and hidden links which makes navigation smooth as butter.
+
+The master sheet is a sheet that contains the address of all the sheets present and we can jump to any sheet and we can also return to both the master sheet and dashboard from anywhere.
+
+And there are many shortcut links hidden in the dashboard, we can move from the dashboard to the source of any chart to get more insights and details like pivot table fields and all, we can also navigate to the master sheet.
+
+I have also done the SWOT analysis of my dashboard.
+The main strengths of my dashboard are its excellent user interface, it looks very clean, everything is properly aligned, and we have splendid dark/light theme feature, and I have included enough use of links to ease the navigation process and features like master sheet and hidden links have made the navigation extremely easy. And all the charts used, highlight only the important details, and we can make use of slicers to get more specific and detailed results, all these features make it very easy to use the dashboard and we can understand a very large unstructured raw data very easily.
+
+Although I have tried my best to make it perfect, I have not been able to include everything accurately in this dashboard. Because there are a lot of features absent in Excel, For example, Excel does not have a custom sorting option with pivot tables, I wanted to find the ranking of countries like the standard ranking system where the highest total no. of gold medals ranks first, and when there is a tie then we have to find who has highest silver medals and when there is a tie in silver medals then sort by bronze medal, but excel allows this custom sorting only in normal tables, not with pivot tables. 
+Another annoying limitation I found is that excel always disables the value filters in pivot tables as soon as we apply any slicer, this is also a very poor feature that excel must improve.
+Like this, I have encountered several limitations in excel, and I had to adjust in many cases and find alternative solutions.
+
+Well, the opportunities we still have is that we can work on all the tasks using some other tools which we were not able to achieve due to excel limitations. And right now this dashboard's height is larger than the screen height so we can minimize the size, or remove some features to fit in the screen if any user wants it that way. But I don't have a problem with height and I wanted to include as many objectives as possible so I made it that way.
+
+Now, at last, the threats we have in using this dashboard is that it is less secure, a slight mistake and we may lose our changes if we don't have a backup, I know that Excel has features like protect sheet and protect the workbook, but in my case, it was useless because I wanted to protect all the features of the dashboard but still make it active so we can use slicers and see variations in charts but no Excel again has limitations if we try to protect sheet or workbook then it will also block the slicers and dashboard will be just like a picture. And if we make slicers accessible then all the objects, images, and charts will also be accessible and they can be disturbed so no use in my case.
+Another problem in excel is that it is extremely slow, It was a headache for me sometimes because it always took 2-4 minutes just for opening the excel file since my data set was extremely large and my laptop is not in perfect condition. And even if we leave my case and talk generally excel is still comparatively slower than many other tools in the market like tableau, power bi, Informatica IDQ, MDM.
+And another problem is that it occupies a large space, the size of my dashboard is 91.6 MB. If we use objects and images from excel then it is very likely that the size of our file will be larger.
+
+And these are the tools and features of excel which I have used the most, Pivot tables everything I have done with pivot tables, and pivot charts, slicers, I have used a lot of links to connect all sheets, I have used many objects and images to decorate the dashboard, and I have also used Visual Basic a little to limit the scrolling in the dashboard to improve the user experience, I have also used many formulas and filters, I have used power query editor and get data feature during the ETL process.
+
+At last, I would like to say that the course INT217 was very much informative I got the opportunity to clear my concepts of Excel, I became familiar with many new excel features, I learned many new things while making the dashboard, and I got an idea about What is Data Analysis?
+
+So that's all from my side.
+
+Thank You.
