@@ -12,4 +12,4 @@ Data Set - https://www.kaggle.com/heesoo37/120-years-of-olympic-history-athletes
 
 <hr>
 <h1>Dark Theame</h1>
-<img align="center" alt="Coding" width="100%" height="300" src="https://i.postimg.cc/0QCNQqRh/link.jpg)](https://postimg.cc/8JjGK9Cb">
+<img align="center" alt="Coding" src="https://github.com/QAZIMAAZARSHAD/Excel-Dashboard-Olympics-Statistics/blob/master/Images/Dark.jpg?raw=true">
